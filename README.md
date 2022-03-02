@@ -1,4 +1,4 @@
-# Web-Class-Projects
+# Mirror_Fashion
  Class projects for a Web Class
  
  Now resizable!
