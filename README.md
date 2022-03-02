@@ -3,4 +3,4 @@
  
  Now resizable!
 
-Site available here : https://nullzeal.github.io/Web-Class-Projects/
+Web Site available here : https://nullzeal.github.io/Web-Class-Projects/
