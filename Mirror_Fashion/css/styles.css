@@ -12,7 +12,7 @@ header {
     width: 940px;
 }
 
-.shopping-class{
+.shopping-bag{
     background-image:url(../img/bag.png);
     background-repeat:no-repeat;
     background-position:top right;
@@ -247,15 +247,18 @@ footer .container {
 }
 
 @media(max-width: 939px) {
-    .container::after{
+    .container{
         width:96%;
     }
+
     header h1 {
         text-align: center;
     }
+
     header h1 img {
         max-width:50%;
     }
+
     .shopping-bag{
         display:none;
     }
