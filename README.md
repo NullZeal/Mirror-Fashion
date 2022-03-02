@@ -1,6 +1,6 @@
 # Mirror-Fashion
 
-Website Project for a Web Class.
+Website Project.
  
 Now resizable!
 
