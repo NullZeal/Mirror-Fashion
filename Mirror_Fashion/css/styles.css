@@ -25,11 +25,13 @@ header {
     right:0;
     top:0;
 }
+
 .menu-options {
     position: absolute;
     bottom: 0;
     right: 0;
 }
+
 .menu-options ul {
     font-size:15px;
 }
@@ -53,7 +55,6 @@ header {
     margin-right: 10px;
     float: left;
 }
-
 
 .menu-departments {
     clear: left;
@@ -107,34 +108,28 @@ header {
     margin:2px;
 }
 
-
 .panel h2{
     text-align:center;
     font-size:24px;
     font-weight:bold;
     text-transform:uppercase;
     margin-bottom:10px;
-
 }
 
 .panel {
     margin: 10px 0;
     padding: 10px;
     width:445px;
-
 }
 
 .news {
     float: left;
     background-color: #F5DCDC;
-    
-
 }
 
 .best-sellers {
     float: right;
     background-color: #DCDCF5;
-
 }
 
 .panel a {
@@ -142,7 +137,6 @@ header {
     font-size: 14px;
     text-align: center;
     text-decoration: none;
-
 }
 
 footer {
@@ -175,11 +169,11 @@ footer .container {
 
 .social a[href*="twitter.com"] {
         background-image: url(../img/twitter.png);
-    }
+}
 
 .social a[href*="google"] {
         background-image: url(../img/googleplus.png);
-    }
+}
 
 .social li {
     /*display:inline-block;*/
@@ -228,7 +222,7 @@ footer .container {
     text-shadow: 3px 3px 2px rgba(255,255,255,0.8);
 }
 
-    .panel li:hover {
+.panel li:hover {
         box-shadow: 0 0 5px #333333;
         transition: box-shadow 0.7s;
         background-color: rgba(255,255,255,0.8);
@@ -236,7 +230,7 @@ footer .container {
         transition: 0.7s ease-in;
         /* transform: scale(1.2);*/
         transform: scale(1.2) rotate(-5deg);
-    }
+}
 
 .panel li:nth-child(2n):hover {
     transform: scale(1.2) rotate(5deg); 
@@ -267,33 +261,88 @@ footer .container {
         position: static;
         text-align: center;
     }
+
     .menu-options ul li {
         display: inline-block;
         margin: 5px;
     }
+
     .search,
     .menu-departments,
     .banner-highlight img {
         margin-right: 0;
         width:100%;
     }
+
     .panel{
         width:auto;
     }
+
     .panel li{
         width: 30%;
     }
+
     .panel img{
         width:100%;
     }
+
     footer {
         min-width:96%;
     }
+
     footer img {
         max-width:40%;
     }
+
     .social li{
         margin-left: 15px;
     }
-}
+
+    @media(min-width: 480px){
+        header h1{
+            margin: 5px 0;
+        }
+
+        .menu-departments{
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .menu-departments nav > ul {
+            column-count: 2;
+        } /*/end of @media(max-width:480px)*/
+    } 
+
+    @media(min-width:720px){
+        header h1 {
+            text-align:left;
+        }
+
+        .menu-options{
+            position:absolute;
+        }
+
+        .shopping-bag {
+            display: block;
+        }
+
+        .panel li {
+            width:31.5%;
+        }
+
+        .search,
+        .menu-departments {
+            margin-right:1%;
+            width:30%;
+        }
+
+        .menu-departments nav > ul {
+            column-count: 1;
+        }
+        
+        .banner-highlight img {
+            width: 69%;
+        }
+    } /*/end of @media(max-width:720px)*/
+} /*/end of @media(max-width:939px)*/
 
