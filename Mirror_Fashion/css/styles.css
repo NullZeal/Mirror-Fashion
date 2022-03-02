@@ -286,5 +286,11 @@ footer .container {
     footer {
         min-width:96%;
     }
+    footer img {
+        max-width:40%;
+    }
+    .social li{
+        margin-left: 15px;
+    }
 }
 
