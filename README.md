@@ -4,4 +4,4 @@ Website Project for a Web Class.
  
 Now resizable!
 
-Available here : nullzeal.github.io/mirror-fashion/
+Available [Here](https://nullzeal.github.io/Mirror-Fashion/).
