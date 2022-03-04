@@ -1,0 +1,5 @@
+.colors label::after{
+    content: '';
+    display:block;
+}
+
