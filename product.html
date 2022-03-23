@@ -27,6 +27,7 @@
             </ul>
         </nav>
     </header>
+<div class="product-back">
 
 <div class="container">
     <div class="product">
@@ -51,12 +52,61 @@
                 </label>
     
             </fieldset>
+            <fieldset class="sizes">
+                <legend>Choose a size</legend>
+                <input type="range" min="36" max="46" value="36" step="2" name="size" id="sizeId" oninput="sizeoutputId.value=sizeId.value"/>
+                <output id="sizeoutputId">36</output>
+
+            </fieldset>
+
+
     
             <button class="buy"> Buy </button>
         </form>
     </div>
-</div>
 
+    <div class="details">
+        <h2>Product Description</h2>
+        <p>
+            This is the best cardigan jacket you have ever seen. Great Italian material with print designed by artisans from the Krotor community on the Greek islands. Buy now and receive today by our express delivery. 
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Model</td>
+                    <td>Cardigan</td>
+                </tr>
+                <tr>
+                    <td>Material</td>
+                    <td>Cotton and polyester</td>
+                </tr>
+                <tr>
+                    <td>Colors</td>
+                    <td>Blue, Pink, and Green</td>
+                </tr>
+                <tr>
+                    <td>Wash</td>
+                    <td>Wash by hand</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+     	
+     	        
+     	
+     	        
+     	       
+
+
+</div>
+</div>
     <footer>
         <div class="container">
             <img src="img/logo-footer.png" alt="Mirror Fashion logo"/>

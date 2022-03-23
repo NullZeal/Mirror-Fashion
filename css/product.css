@@ -126,30 +126,86 @@ label[for="blue"]::after {
     padding-left: 40%;
 
     font-size: 1.2em;
+}
+
+.colors {
+  position: static;
+  padding: 0;
+}
+.colors legend {
+  position: static;
+}
+.colors label img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 35%;
+  max-height: 100%;
+}
+.colors label::after {
+  position: static;
+  float: left;
+  margin-right: 10px;
+}
+fieldset {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em 0;
+  min-width: 240px;
+  width: 45%;
+}
+.details {
+  padding: 2em 0;
+}
+.details h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+.details p {
+  margin: 1em 0;
+  font-size: 1em;
+  line-height: 1.5;
+  max-width: 36em;
+  text-align: justify;
+}
+
+@media (min-width: 500px) {
+  .details {
+    font-size: 1.2em;
   }
+}
 
-  .colors {
-    position: static;
-    padding: 0;
-  }
+table {
+  border-spacing: 0.2em;
+  border-collapse: separate;
+}
 
-  .colors legend {
-    position: static;
-  }
+thead {
+  background-color: #999999;
+}
+thead th {
+  font-weight: bold;
+  padding: 0.3em 1em;
+  text-align: center;
+}
 
-  .colors label img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 35%;
-    max-height: 100%;
-  }
+td {
+  padding: 0.3em;
+}
 
-  .colors label::after {
-    position: static;
-    float: left;
+tr:nth-child(2n) {
+  background-color: #cccccc;
+}
 
-    margin-right: 10px;
+td:first-child {
+  font-style: italic;
+}
+.product-back {
+  background-color: #f2f2f2;
+  margin-top: 1em;
+  border-top: 2px solid #cccccc;
+}
 
-  }
+.colors label img {
+  border: 2px solid #cccccc;
 }
